@@ -1,0 +1,19 @@
+# START - Contact Reports
+dn: CN=[CUS] ContactReportPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: ONO+SI3G7ESrvGLvXX1hoQ==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Contact Report
+jenzabar-ICSNET-PortletPath: Portlet.ContactReport,CUS.ICS.ContactReport.ContactReport
+jenzabar-ICSNET-ApplicationPointer: CN=CUS,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CUS] ContactReportPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Contact Reports
